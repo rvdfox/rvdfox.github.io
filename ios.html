@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drowzle</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    <meta name="theme-color" content="#001230" />
+</head>
+<body onload="iosLoad()">
+	<header class="header">
+		<div class="headerTitle"></div>
+	</header>
+	<div id="iosModal" class="modal mobileModal">
+		<div class="modal-content">
+			Depending upon your connection, the download may take up to a minute or more. Please check the home screen on your phone for the DROWZLE installation status
+		</div>
+		<div class="modal-footer">
+      		<a href="itms-services://?action=download-manifest&url=https%3A%2F%2Fna01ws.apperian.com%2Fdownloads%2Finstall%2Fapplications%2F74984%2Fno_auth%2F%3Fcapp%3DbaWEm-uDz_3Y-dPW2U1tgw" class="modal-action modal-close waves-effect waves-green btn-flat" style="border-radius: 0px;border-right: 1px solid #f44336;">Install</a>
+      		<a href="#!" style="border-radius: 0px;border-left: 1px solid #f44336;" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    	</div>
+	</div>
+	<div class="firstSection">
+			<div class="row circleParent">
+				<div class="col s12 m12">
+					<div class="circleImage">
+						<p class="circleTitle ctMobile">ATTENTION<br>iOS USERS!</p>
+						<p class="circleContent ccMobile">After tapping install on your mobile device, a pop-up will appear stating that Resonea, Inc is not a trusted developer. Follow the instructions below to complete the installation. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 flowText1" style="font-weight: 400;">
+			INSTALL INSTRUCTIONS</br>
+			</div>
+	</div>
+	<div class="secondSection">
+		<div class="col s10">
+			<p class="textThin" style="margin-bottom: 1.5em;">1) Tap Cancel on the popup.</p>
+			<div class="col s10 center"><image src="./images/ios_screen1.png" class="responsive-img iosScreen1" width="80%"></div>
+			<p  class="textThin" style="margin-top: 1.5em;">2) Go to Settings > General </p>
+			<p  class="textThin">3) Go to Device Management > Resonea, Inc</p>
+			<p  class="textThin">4) Tap Trust “Resonea, Inc” </p>
+			<p  class="textThin" style="margin-bottom: 1.5em;">5) Tap “Trust” on the pop-up</p>
+			<div class="col s10 center"><image src="./images/ios_screen2.png" class="responsive-img iosScreen2" width="80%"></div>
+			<p  class="textThin" style="margin-top: 1.5em;">6) Install is complete! Open the DROWZLE app.</p>
+			<div class="col s6" style="height:10vh;margin-top: 1.5em;">
+				<!-- <a href="itms-services://?action=download-manifest&url=https%3A%2F%2Fna01ws.apperian.com%2Fdownloads%2Finstall%2Fapplications%2F74984%2Fno_auth%2F%3Fcapp%3DbaWEm-uDz_3Y-dPW2U1tgw"> -->
+					<div class="iosDownload" onclick="iosDownloadFn()"></div>
+				<!-- </a> -->
+			</div>
+			</br></br>
+		</div>
+	</div>
+	<footer class="page-footer row inline">
+		<div class="col s12 m7 l7">
+			<div class="footerTitle"></div>
+		</div>
+		<div class="col s12 m5 l5 footerElements">
+			<p class="col s12 smallText">© 2017 RESONEA</p>
+			<a href="http://resonea.com/service-terms-agreement/" target="_blank"><p class="col s12 smallText">USER TERMS</p></a>
+			<a href="http://resonea.com/privacy-policy/" target="_blank"><p class="col s12 smallText">PRIVACY POLICY</p></a>
+			<a href="http://resonea.com/contact/" target="_blank"><p class="col s12 smallText">CONTACT US</p></a>
+		</div>
+   </footer>
+	<!-- scripts -->
+	<script src="js/jquery-2.1.1.min.js"></script>
+  	<script src="js/materialize.min.js"></script>
+  	<script src="js/main.js"></script>
+</body>
+</html>

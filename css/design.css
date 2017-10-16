@@ -1,0 +1,540 @@
+
+a{
+	color: #ffffff;
+}
+
+img.responsive-img{
+	max-height: 80vh;
+}
+
+area {
+    display: inline;
+    cursor: pointer;
+}
+
+.header{
+	background-color: #001230;
+	/*padding:2%;*/
+	height: 3em;
+	color:white;
+	font-size:medium;
+}
+
+.headerTitle{
+	height: 4em;
+	width: 8em;
+	margin-left:6em;
+	background: url('../images/logo_big.png') no-repeat center;
+	background-size: contain;
+}
+
+.firstSection{
+	height: 100vh;
+	background:url('../images/background1Big.png') center top;
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-color: #042c50;
+	text-align: center;
+	margin-bottom: -2px;
+}
+
+.getStartedBtnSmall{
+	margin-top: 10vh;
+	display: none;
+	cursor: pointer;
+}
+
+.fsMobile{
+	height: 100%;
+	margin-bottom: -2px;
+}
+
+.androidScreen1{
+	margin: 5% auto 5% auto;
+    width: auto;
+}
+
+.emailcont{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.emailInput{
+    width: 60% !important;
+    max-width: 500px;
+    margin:auto;
+    background: white !important;
+    border-radius: 9px !important;
+    border: 2px solid gray !important;
+    font-style: italic;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    padding:4px !important;
+    height: 2em !important;
+    max-height: 60px !important;
+}
+
+.emailConfirmBtn{
+    background: linear-gradient(#e13b46,#ab2460);
+    padding: 12px;
+    border-radius: 15px;
+    margin-left: 15px;
+    border: none;
+    color: white;
+}
+
+.textStrong{
+	margin-top: 0;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-bottom: 2em;
+}
+
+.textThin{
+	width: 80%;
+    margin: auto;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.textThinContent{
+	color: #ffffff;
+    margin-bottom: 0;
+    padding: 2% 5% 9% 8%;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.phoneImg{
+	margin-top: 5vh;
+	height: 90vh;
+}
+
+.phoneImgSmall{
+	margin-top: 5vh;
+	display: none;
+}
+
+.secondSection{
+	/*height: 100vh;*/
+	background:url('../images/background2.jpg');
+	background-size: cover;
+}
+
+.textTitle{
+	color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.textContent{
+	width: 64vw;
+    text-align: justify;
+    margin: auto;
+    color: #ffffff;
+    font-size: large;
+    margin-top: 3vh;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.circleImage{
+	background: url(../images/roundContainer.png) no-repeat center;
+    background-size: contain;
+    /*height: 56vh;*/
+    height: 62vh;
+    width: 100%;
+    margin-top: 10vh;
+    /* margin-left: 10vh; */
+    margin-bottom: 20vh;
+}
+
+.circleParent.row {
+	margin-bottom: 0px;
+}
+
+.ciAndroid{
+	margin-bottom: 10vh !important;
+}
+
+.flowText1{
+	color:#ffffff;
+	font-size: medium;
+}
+
+.circleTitle{
+	padding-top: 11vh;
+    text-align: center;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    /* letter-spacing: 1px; */
+}
+
+.ctMobile{
+	font-size: 1.8em !important;
+	margin-bottom: 10px;
+}
+
+.circleContent{
+	color: #ffffff;
+    width: 40vh;
+    text-align: justify;
+    margin: auto;
+    font-size: larger;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ccMobile{
+	font-size: 2.5vh !important;
+}
+
+.buttonPlaceholder{
+	margin-top: 20vh;
+	/*margin-left:10vh;*/
+}
+
+
+.buttonText{
+	text-align: center;
+	font-size:larger;
+	color:#ffffff;
+}
+
+.privacyImg{
+	margin:auto;
+	height: 100%;
+    width: 95%;
+    background: url(../images/privacy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.agreementImg{
+	margin:auto;
+	height: 100%;
+    width: 95%;
+    background: url(../images/useragreement.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.smallText{
+	font-size:smaller;
+	text-align: center;
+	width:fit-content !important;
+}
+
+.page-footer{
+	/*padding-top:2em;*/
+	/*padding-bottom: 2em;*/
+	background-color: #231F20;
+}
+
+.footerElements{
+	/*height: 4em;*/
+    vertical-align: middle;
+    /*line-height: 2em;*/
+}
+
+.footerTitle{
+	height: 5em;
+    width: 10em;
+	margin-left:6em;
+	background: url('../images/logo_big.png') no-repeat center;
+	background-size: contain;
+
+}
+
+
+.page-footer.row{
+	margin-bottom: 0px;
+}
+
+/*scroll down*/
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  display: none;
+  bottom: 5%;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
+}
+
+.modal-overlay{
+    background: #9e9e9e;
+}
+
+.mobileModal{
+    top: 30% !important;
+    background-image: url('../images/background1Big.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    text-align: center;
+    margin-bottom: -2px;
+    color: white;
+    letter-spacing: 0.5px;
+    /* height: 40vh; */
+    font-size: medium;
+    background-color: #002549;
+}
+
+.modal .modal-footer{
+    text-align: center;
+    display: inline-flex;
+    background: #002549;
+    border-top: 3px solid #f44336;
+}
+
+.modal a{
+    width:50%;
+    color: white;
+    background: #002549;
+}
+
+.consentSection{
+	text-align: center;
+	margin: 5% 0% 5% 0%;
+	display: none;
+}
+
+.downloadSection{
+	margin-bottom: 10%;
+	display: none;
+}
+
+.androidDownload{
+	margin:auto;
+	height: 100%;
+    width: 95%;
+	background: url(../images/android_download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.iosScreen1{
+    width: auto;
+}
+
+.iosScreen2{
+    width: auto;
+}
+
+.iosDownload{
+	margin:auto;
+	height: 100%;
+    width: 95%;
+	background: url(../images/ios_download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f44336;
+    background-color: #f44336;
+    z-index: 0;
+}
+
+[type="checkbox"].filled-in:not(:checked)+label:after {
+    height: 20px;
+    width: 20px;
+    background-color: #f5f5f5;
+    border: 2px solid #f44336;
+    top: 0px;
+    z-index: 0;
+}
+
+label{
+	color:#ffffff;
+}
+
+.flowText1{
+	color: #ffffff;
+}
+/*end*/
+
+@media only screen and (max-width: 350px) {
+	.circleContent{
+    	font-size: smaller !important;
+    	margin-top: 1em;
+    }
+}
+
+/*@media only screen and (max-width: 760px) {
+	.circleContent{
+    	font-size: large;
+    	width: 30vh;
+    	/*margin-top: 1em;*/
+/*    }
+}*/
+@media only screen and (max-height:520px) and (min-height:503px) and (orientation: landscape){
+    .circleContent{
+        font-size: medium;
+    }
+
+    .circleTitle{
+        font-size: large;
+    }
+
+    .privacyImg {
+       margin: 2% auto;
+    }
+}
+
+@media only screen and (max-height:503px) and (orientation: landscape){
+    .circleContent{
+        font-size: small;
+    }
+
+    .circleTitle{
+        font-size: medium;
+    }
+
+    .privacyImg {
+        margin: 2% auto;
+    }
+}
+
+@media only screen and (max-height:380px) and (orientation: landscape){
+    .circleContent{
+        font-size: 60%;
+    }
+
+    .circleTitle{
+        font-size: small;
+    }
+
+    .privacyImg {
+       margin: 2% auto;
+    }
+}
+
+@media only screen and (min-height:499px) and (orientation: landscape){
+    /*.circleTitle{
+        font-size: 1em !important;
+    }*/
+
+    .circleContent{
+        font-size: larger;
+    }
+
+    .circleTitle{
+        font-size: 2em;
+    }
+
+    .privacyImg{
+        margin: 2% auto;
+    }
+
+    .phoneImg{
+        height: 85vh;
+    }
+}
+
+@media only screen and (max-height:500px) and (orientation: landscape){
+    .phoneImg{
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-height:300px) and (orientation: landscape){
+    .phoneImg{
+        height: 65vh;
+    }
+}
+
+
+@media only screen and (max-width: 601px) and (orientation: portrait) {
+
+	.headerTitle{
+		margin:auto;
+	}
+
+	.phoneImg{
+		display: none;
+	}
+
+	.phoneImgSmall{
+		display: inline;
+	}
+
+	.footerTitle{
+		margin:auto;
+	}
+
+	.smallText{
+		width:100% !important;
+	}
+
+	.buttonPlaceholder {
+     	margin-top: 0;
+    }
+
+    .textContent{
+    	width: 90vw;
+    	font-size: 1.2em;
+    }
+
+    .textTitle{
+    	font-size: 1.5em;
+    }
+
+    .circleTitle{
+        font-size: large;
+    	/*width: 70vw;*/
+    	/*margin: auto;*/
+    }
+
+    .circleContent{
+    	font-size: large;
+    	margin-top: 1em;
+    }
+
+    .circleImage{
+    	height:60vh;
+    }
+
+    .firstSection{
+    	height: none;
+    }
+
+    .textTitle{
+    	padding-top: 10vh;
+    }
+
+    img.responsive-img{
+		max-height: 105vh;
+	}
+
+	.arrow{
+		display: none !important;
+	}
+
+	.phoneImgSmall{
+		height: 105vh !important;
+	}
+
+	.getStartedBtnSmall{
+		display: inline;
+	}
+}

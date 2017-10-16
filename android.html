@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drowzle</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    <meta name="theme-color" content="#001230" />
+</head>
+<body onload="androidLoad()">
+	<header class="header">
+		<div class="headerTitle"></div>
+	</header>
+	<div id="androidModal" class="modal mobileModal">
+		<div class="modal-content">
+			Depending upon your connection, the download may take up to a minute or more. Please check the downloads folder on your phone or scroll down notification bar and tap on the APK file for installation.
+		</div>
+		<div class="modal-footer">
+      		<a href="https://na01ws.apperian.com/downloads/install/applications/74981/no_auth/?capp=N4RboXhzwrta0L9ejC6x9w" style="border-radius: 0px;border-right: 1px solid #f44336;" class="modal-action modal-close waves-effect waves-green btn-flat">INSTALL</a>
+      		<a href="#!"  style="border-radius: 0px;border-left: 1px solid #f44336;" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    	</div>
+	</div>
+	<div class="firstSection fsMobile">
+			<div class="row circleParent">
+				<div class="col s12 m12">
+					<div class="circleImage ciAndroid">
+						<p class="circleTitle ctMobile">ATTENTION</br>ANDROID USERS!</p>
+						<p class="circleContent ccMobile">After tapping install on your mobile device, DROWZLE will imediately begin downloading. You’ll need to allow the program to be installed, similar to the screenshots below. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 center flowText1">
+			Example Screenshot</br>
+			confirm DROWZLE to install
+			</div>
+			<image src="./images/android_screen.png" class="responsive-img androidScreen1">
+	</div>
+	<div class="secondSection">
+			<div class="col s10 center">
+				<p class="textStrong">Special Circumstances</p>
+				<p class="textThin">On certain devices, your operating system may give a warning similar to:</p>
+				<p class="textStrong" style="margin-top: 1em;">“Install Blocked.”</p>
+				<p class="textThin">In this scenario, you’ll need to follow these instructions:</p>
+				<p class="textThinContent">
+					1) Go to ‘Settings’ on the device.</br>
+				   	2) Tap the ‘Security’ option under ‘Personal’.</br>
+					3) Tap the ‘Unknown Sources’ checkbox under the ‘Device Administration’ section.</br>
+					4) Tap ’OK’ in the pop up.</br>
+					5) Run the download APK again.</br>
+				</p>
+				<div class="col s6" style="height:10vh;margin-top: 1.5em;">
+					<!-- <a href="https://na01ws.apperian.com/downloads/install/applications/74981/no_auth/?capp=N4RboXhzwrta0L9ejC6x9w"> -->
+					<div class="androidDownload" onclick="androidDownloadFn()"></div>
+					<!-- </a> -->
+				</div>
+				</br></br>
+			</div>
+	</div>
+	<footer class="page-footer row inline">
+		<div class="col s12 m7 l7">
+			<div class="footerTitle"></div>
+		</div>
+		<div class="col s12 m5 l5 footerElements">
+			<p class="col s12 smallText">© 2017 RESONEA</p>
+			<a href="http://resonea.com/service-terms-agreement/" target="_blank"><p class="col s12 smallText">USER TERMS</p></a>
+			<a href="http://resonea.com/privacy-policy/" target="_blank"><p class="col s12 smallText">PRIVACY POLICY</p></a>
+			<a href="http://resonea.com/contact/" target="_blank"><p class="col s12 smallText">CONTACT US</p></a>
+		</div>
+   </footer>
+	<!-- scripts -->
+	<script src="js/jquery-2.1.1.min.js"></script>
+  	<script src="js/materialize.min.js"></script>
+  	<script src="js/main.js"></script>
+</body>
+</html>
